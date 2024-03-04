@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_gatt_client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_gatt_server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_medium.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2_peripheral.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2_server_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_adapter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_medium.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_server_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_pairing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\executor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\file_path.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\http_loader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\platform.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\preferences_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\preferences_repository.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\scheduled_executor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\session_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\submittable_executor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\system_clock.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\thread_pool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\webrtc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_direct_medium.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_direct_server_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_direct_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_hotspot_medium.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_hotspot_server_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_hotspot_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_lan_medium.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_lan_server_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_lan_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_medium.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\preferences_repository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40C6ABED-705F-3C2D-AAC7-87F3D3366D23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B53A22DB-6663-3A46-8C0D-0E7AC59F145D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

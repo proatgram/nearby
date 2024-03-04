@@ -16,56 +16,56 @@
 
 #include <algorithm>
 
-#include "strings/strappendv.h"
-
 namespace nearby {
-namespace windows {
+    namespace windows {
 
-api::LogMessage::Severity min_log_severity_ = api::LogMessage::Severity::kInfo;
+        api::LogMessage::Severity min_log_severity_ = api::LogMessage::Severity::kInfo;
 
-inline absl::LogSeverity ConvertSeverity(api::LogMessage::Severity severity) {
-  switch (severity) {
-    // api::LogMessage::Severity kVerbose and kInfo is mapped to
-    // absl::LogSeverity kInfo since absl::LogSeverity doesn't have kVerbose
-    // level.
-    case api::LogMessage::Severity::kVerbose:
-    case api::LogMessage::Severity::kInfo:
-      return absl::LogSeverity::kInfo;
-    case api::LogMessage::Severity::kWarning:
-      return absl::LogSeverity::kWarning;
-    case api::LogMessage::Severity::kError:
-      return absl::LogSeverity::kError;
-    case api::LogMessage::Severity::kFatal:
-      return absl::LogSeverity::kFatal;
-  }
-}
+        //// Variables of type LogSeverity are widely taken to lie in the range
+        //// [0, NUM_SEVERITIES-1].  Be careful to preserve this assumption if
+        //// you ever need to change their values or add a new severity.
+        //typedef int LogSeverity;
+        //
+        //const int GLOG_INFO = 0, GLOG_WARNING = 1, GLOG_ERROR = 2, GLOG_FATAL = 3,
+        //NUM_SEVERITIES = 4;
 
-LogMessage::LogMessage(const char* file, int line, Severity severity)
-    : log_streamer_(ConvertSeverity(severity), file, line) {}
+        int ConvertToGLogSeverity(LogMessage::Severity severity)
+        {
+            int result{ 0 };
+            switch (severity)
+            {
+            case LogMessage::Severity::kInfo:
+                return 0;
+            case LogMessage::Severity::kWarning:
+                return 1;
+            case LogMessage::Severity::kError:
+                return 2;
+            case LogMessage::Severity::kFatal:
+                return 3;
+            }
+            return result;
+        }
 
-LogMessage::~LogMessage() = default;
+        LogMessage::LogMessage(const char* file, int line, Severity severity)
+            : log_streamer_(file, line, ConvertToGLogSeverity(severity)) {}
 
-void LogMessage::Print(const char* format, ...) {
-  va_list ap;
-  va_start(ap, format);
-  std::string result;
-  strings::StrAppendV(&result, format, ap);
-  log_streamer_.stream() << result;
-  va_end(ap);
-}
+        LogMessage::~LogMessage() = default;
 
-std::ostream& LogMessage::Stream() { return log_streamer_.stream(); }
+        void LogMessage::Print(const char* format, ...) {
+        }
 
-}  // namespace windows
+        std::ostream& LogMessage::Stream() { return log_streamer_.stream(); }
 
-namespace api {
+    }  // namespace windows
 
-void LogMessage::SetMinLogSeverity(Severity severity) {
-  windows::min_log_severity_ = severity;
-}
+    namespace api {
 
-bool LogMessage::ShouldCreateLogMessage(Severity severity) {
-  return severity >= windows::min_log_severity_;
-}
-}  // namespace api
+        void LogMessage::SetMinLogSeverity(Severity severity) {
+            windows::min_log_severity_ = severity;
+        }
+
+        bool LogMessage::ShouldCreateLogMessage(Severity severity) {
+            return severity >= windows::min_log_severity_;
+        }
+    }  // namespace api
 }  // namespace nearby

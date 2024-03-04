@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A07142B9-D124-3AD0-B0AE-FBBF0EEAAAE5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>gflags_nothreads_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\gflags_nothreads_static.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\output\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gflags_nothreads_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gflags_nothreads_static_debug</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gflags_nothreads_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gflags_nothreads_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gflags_nothreads_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gflags_nothreads_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gflags_nothreads_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gflags_nothreads_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFLAGS_IS_A_DLL=0;NO_THREADS;NO_WEBRTC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\config.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\utils.cmake;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\version.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\defines.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_completions.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_declare.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\config.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\utils.cmake;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\version.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\defines.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_completions.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_declare.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\config.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\utils.cmake;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\version.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\defines.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_completions.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_declare.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/gflags-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\config.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\utils.cmake;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\cmake\version.cmake.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\defines.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_completions.h.in;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_declare.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags.cc" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_reporting.cc" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\gflags_completions.cc" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\windows_port.cc" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\defines.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\config.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\util.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\mutex.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-src\src\windows_port.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\gflags.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\gflags_declare.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-build\include\gflags\gflags_completions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\ZERO_CHECK.vcxproj">
+      <Project>{A2EAB798-C77B-38C1-BE57-FB45A495FE27}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

@@ -30,10 +30,7 @@ fetchcontent_declare(
   GIT_REPOSITORY "https://github.com/protocolbuffers/protobuf.git"
   GIT_TAG "v3.23.0"
   GIT_PROGRESS TRUE
-<<<<<<< Updated upstream
-=======
   # FIND_PACKAGE_ARGS CONFIG
->>>>>>> Stashed changes
   OVERRIDE_FIND_PACKAGE
 )
 
@@ -200,7 +197,7 @@ fetchcontent_makeavailable(securemessage)
 fetchcontent_makeavailable(ukey2)
 
 # For BoringSSL, it throws all warnings as errors, and this gets thrown on the current "master" branch
-target_compile_options(crypto INTERFACE "-Wno-error=ignored-attributes")
+# target_compile_options(crypto INTERFACE "-Wno-error=ignored-attributes")
 
 # Alias targets for easier readablity
 add_library(boringssl::crypto ALIAS crypto)

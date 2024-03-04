@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\f81e493aa9fdd1cf6de47102f3aa5721\ukey2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\5576dc3707574ac3c31b20b7c003be9d\ukey2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\3307eef1c4863b12fe861a22bcf4f986\ukey2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\ukey2-subbuild\CMakeFiles\ukey2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D9A70D1F-1E50-39F9-8F3E-E7496C534C00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

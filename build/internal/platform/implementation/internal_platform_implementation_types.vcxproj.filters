@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\atomic_boolean.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\atomic_reference.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\bluetooth_adapter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\cancelable.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\condition_variable.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\count_down_latch.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\crypto.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\device_info.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\executor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\future.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\input_file.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\listenable_future.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\log_message.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\mutex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\output_file.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\preferences_manager.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\scheduled_executor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\settable_future.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\submittable_executor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\system_clock.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\timer.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40C6ABED-705F-3C2D-AAC7-87F3D3366D23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

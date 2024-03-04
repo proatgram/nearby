@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\22954dfd562e69cd4805e78f3987f27c\absl-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\bcf7008cbdda698ee5bd94b4e9741423\absl-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\ada1e26a0384e9bf9d8c6c5a8030d530\absl-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-subbuild\CMakeFiles\absl-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{025C8403-F920-3F69-B209-025C99376EF4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

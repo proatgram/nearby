@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\950f844deca991783d15e94b00a66485\boringssl-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\ea38ebe14e4184f37dc33655dbb09926\boringssl-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\a5ac82102892780f01e32c468e290e4a\boringssl-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-subbuild\CMakeFiles\boringssl-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F44B01CB-9601-3C5A-B28C-073FF7578D41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

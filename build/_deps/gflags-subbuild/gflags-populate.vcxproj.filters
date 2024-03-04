@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\76e44a5b68c9a4460200036f43aff856\gflags-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\04347624f6bdfee33b9abc0bfceaaea9\gflags-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\796f46cbb801d9fc553c0be8d8eb1d8e\gflags-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\gflags-subbuild\CMakeFiles\gflags-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0EB5612A-7790-3D91-BDB9-842217FA22AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

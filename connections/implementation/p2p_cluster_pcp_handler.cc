@@ -467,6 +467,8 @@ void P2pClusterPcpHandler::BlePeripheralDiscoveredHandler(
           return;
         }
 
+        return;
+
         // Parse the BLE advertisement bytes.
         BleAdvertisement advertisement(fast_advertisement, advertisement_bytes);
 

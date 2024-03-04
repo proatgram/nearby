@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\aead.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\ec_private_key.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\ec_signature_creator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\ec_signature_creator_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\encryptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\hkdf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\hmac.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\nearby_base.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\openssl_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\random.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\rsa_private_key.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\secure_hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\secure_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\sha2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\signature_verifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\symmetric_key.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\aead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\crypto_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\ec_private_key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\ec_signature_creator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\ec_signature_creator_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\encryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\hkdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\hmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\nearby_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\openssl_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\rsa_private_key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\secure_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\secure_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\sha2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\signature_verifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\symmetric_key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\crypto_cros\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40C6ABED-705F-3C2D-AAC7-87F3D3366D23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B53A22DB-6663-3A46-8C0D-0E7AC59F145D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,16 +1,17 @@
 .DS_Store
 
-build/**
-.build
+# build/**
+# .build
 
 # We might want to create a real project config at some point, but for now we
 # want to ignore adding the auto-generated one.
 .vscode/
+.vs
 
 # Xcode
 
 ## Build generated
-build/
+# build/
 DerivedData
 
 ## Various settings
@@ -39,7 +40,7 @@ timeline.xctimeline
 playground.xcworkspace
 
 # Swift Package Manager
-.build/
+# .build/
 .swiftpm/
 
 # Carthage
@@ -60,3 +61,10 @@ bazel-*
 # Clang LSP compilation database
 compile_commands.json
 .cache/**
+
+CMakeFiles
+Debug
+internal/platform/implementation/out/build/x64-Debug
+Generated Files
+build/packages
+build/output

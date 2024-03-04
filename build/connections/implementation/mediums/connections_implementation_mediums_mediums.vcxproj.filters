@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\ble.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\ble_v2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\bluetooth_classic.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\bluetooth_radio.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\mediums.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\webrtc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\webrtc_stub.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi_direct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi_hotspot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi_lan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\ble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\ble_v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\bluetooth_classic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\bluetooth_radio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\mediums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\webrtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\webrtc_stub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi_direct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi_hotspot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\wifi_lan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\mediums\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40C6ABED-705F-3C2D-AAC7-87F3D3366D23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B53A22DB-6663-3A46-8C0D-0E7AC59F145D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

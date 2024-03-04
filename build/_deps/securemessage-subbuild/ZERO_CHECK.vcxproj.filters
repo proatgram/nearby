@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\securemessage-subbuild\CMakeFiles\52d7f46ec0db23c245b3d8bbf0e38a5a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9053AEF9-5EC8-3A54-852F-31D4053FE5D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

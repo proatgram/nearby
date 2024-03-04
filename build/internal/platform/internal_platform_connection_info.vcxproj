@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{602E28E3-0227-3FBC-8092-E01071C87360}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>internal_platform_connection_info</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\internal_platform_connection_info.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\output\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">internal_platform_connection_info.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">internal_platform_connection_info</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">internal_platform_connection_info.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">internal_platform_connection_info</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">internal_platform_connection_info.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">internal_platform_connection_info</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">internal_platform_connection_info.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">internal_platform_connection_info</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\;D:\Code\GNearby\GNearbyCmake\GNearby\build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\;D:\Code\GNearby\GNearbyCmake\GNearby\build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\;D:\Code\GNearby\GNearbyCmake\GNearby\build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\;D:\Code\GNearby\GNearbyCmake\GNearby\build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-f</AdditionalOptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NO_WEBRTC;JSON_USE_IMPLICIT_CONVERSIONS=1;JSON_DIAGNOSTICS=0;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby;D:\Code\GNearby\GNearbyCmake\GNearby\build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\include;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-src\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/internal/platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/internal/platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/internal/platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/internal/platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/internal/platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/internal/platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/internal/platform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/internal/platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\ble_connection_info.cc" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\bluetooth_connection_info.cc" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\connection_info.cc" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\wifi_lan_connection_info.cc" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\ble_connection_info.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\bluetooth_connection_info.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\connection_info.h" />
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\wifi_lan_connection_info.h" />
+    <Natvis Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\nlohmann_json.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\ZERO_CHECK.vcxproj">
+      <Project>{A2EAB798-C77B-38C1-BE57-FB45A495FE27}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\types\bad_optional_access.vcxproj">
+      <Project>{B529A0AC-9C4B-3806-A79C-84A5A1B0ADC2}</Project>
+      <Name>bad_optional_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\types\bad_variant_access.vcxproj">
+      <Project>{E78A2BB2-AD84-3C3A-9351-DBD492B5B858}</Project>
+      <Name>bad_variant_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\base.vcxproj">
+      <Project>{0F7D6B5E-8B52-37CB-88EC-39F5B2C32063}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\hash\city.vcxproj">
+      <Project>{1A47A4AD-E2C6-3C15-9682-FC6983ED3BBF}</Project>
+      <Name>city</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\time\civil_time.vcxproj">
+      <Project>{B8124F98-1A9D-37FA-A21B-19FD94C7DB6A}</Project>
+      <Name>civil_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\proto\connections_enums_cc_proto.vcxproj">
+      <Project>{FB49DF3B-73E4-30AC-8F6E-0834AC084A60}</Project>
+      <Name>connections_enums_cc_proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\cord.vcxproj">
+      <Project>{F6B198ED-3C77-308E-8C1E-9467AEB4AA95}</Project>
+      <Name>cord</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\cord_internal.vcxproj">
+      <Project>{E0D715CC-92E1-3E68-9AF8-880322A899A7}</Project>
+      <Name>cord_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\cordz_functions.vcxproj">
+      <Project>{0AB7B3D9-5A29-3DD1-BCAB-1B456067E05F}</Project>
+      <Name>cordz_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\cordz_handle.vcxproj">
+      <Project>{665ACBBC-A4C6-334B-AF56-37A23FF89FC1}</Project>
+      <Name>cordz_handle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\cordz_info.vcxproj">
+      <Project>{0B3CDD14-AFBD-38B6-AFD6-F91A901E007B}</Project>
+      <Name>cordz_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\crc\crc32c.vcxproj">
+      <Project>{528E7F60-A4ED-3092-9AF0-AE2D3BF40821}</Project>
+      <Name>crc32c</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\crc\crc_cord_state.vcxproj">
+      <Project>{51870299-FEED-3A99-AA81-7B8F674EF19E}</Project>
+      <Name>crc_cord_state</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\crc\crc_cpu_detect.vcxproj">
+      <Project>{356E4189-9E7A-3A2A-8BEA-6C64D108403B}</Project>
+      <Name>crc_cpu_detect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\crc\crc_internal.vcxproj">
+      <Project>{D34797AA-7B30-3B5B-88AB-A0151D7251B0}</Project>
+      <Name>crc_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\proto\credential_cc_proto.vcxproj">
+      <Project>{F5DB1EB8-9939-36AA-9229-E0BF1F4E431A}</Project>
+      <Name>credential_cc_proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\crypto.vcxproj">
+      <Project>{0633D675-A917-31A0-B0CC-D705A28552A9}</Project>
+      <Name>crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\debugging\debugging_internal.vcxproj">
+      <Project>{A73D12D3-77C3-3C7B-85FF-72FBD7FF213C}</Project>
+      <Name>debugging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\debugging\demangle_internal.vcxproj">
+      <Project>{C53986A7-4AE3-3A2B-8558-FA636E64A2B9}</Project>
+      <Name>demangle_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\die_if_null.vcxproj">
+      <Project>{6B4B36FC-01D8-389A-A3B6-8F2C8F3431BD}</Project>
+      <Name>die_if_null</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\debugging\examine_stack.vcxproj">
+      <Project>{CC99B145-FC2B-321D-9F58-71A065D676D5}</Project>
+      <Name>examine_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\profiling\exponential_biased.vcxproj">
+      <Project>{FB0D0FFC-CC73-3A53-95D5-991D181BBA72}</Project>
+      <Name>exponential_biased</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags.vcxproj">
+      <Project>{F9294F77-CD03-3C8B-B9FD-9945E420CBD5}</Project>
+      <Name>flags</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_commandlineflag.vcxproj">
+      <Project>{4CA2B804-F3A3-3507-85EE-A460822B0288}</Project>
+      <Name>flags_commandlineflag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_commandlineflag_internal.vcxproj">
+      <Project>{68AE4385-FBB8-3020-9173-11E1716251B0}</Project>
+      <Name>flags_commandlineflag_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_config.vcxproj">
+      <Project>{9827D4B0-3D17-3CA0-A13A-82C419C15BA1}</Project>
+      <Name>flags_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_internal.vcxproj">
+      <Project>{62F1039E-0F13-3FB1-B04C-F1CC2073F323}</Project>
+      <Name>flags_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_marshalling.vcxproj">
+      <Project>{02C0E6BF-9DF5-322C-B6CA-EFFC593E3D38}</Project>
+      <Name>flags_marshalling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_private_handle_accessor.vcxproj">
+      <Project>{27B09E97-384D-3E15-B02C-BA508562822A}</Project>
+      <Name>flags_private_handle_accessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_program_name.vcxproj">
+      <Project>{306B6CDA-ED64-39B8-A44C-AEECE7ECD184}</Project>
+      <Name>flags_program_name</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\flags\flags_reflection.vcxproj">
+      <Project>{DFF42B4F-D354-3BA8-9CF4-29DF34AD7300}</Project>
+      <Name>flags_reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\glog-build\glog.vcxproj">
+      <Project>{9E550BBC-4E5D-327C-BB95-CD5375DF07DC}</Project>
+      <Name>glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\synchronization\graphcycles_internal.vcxproj">
+      <Project>{F2B1D551-AD4A-37F3-91AE-6DAB4B0505BD}</Project>
+      <Name>graphcycles_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\hash\hash.vcxproj">
+      <Project>{B1792142-9195-38AE-9A99-510B8E4C88F1}</Project>
+      <Name>hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\container\hashtablez_sampler.vcxproj">
+      <Project>{F0FB388D-3D73-3BAE-9D74-A123729F4688}</Project>
+      <Name>hashtablez_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\numeric\int128.vcxproj">
+      <Project>{EA992928-D6DB-33C4-8DFE-CFC40528079E}</Project>
+      <Name>int128</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\crypto\internal_crypto.vcxproj">
+      <Project>{97BC8EAB-238A-32C8-B80B-4C270C7EFA16}</Project>
+      <Name>internal_crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\crypto_cros\internal_crypto_cros.vcxproj">
+      <Project>{2CB8BF30-5228-35B9-B780-1FB92F731143}</Project>
+      <Name>internal_crypto_cros</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\internal_platform_base.vcxproj">
+      <Project>{628107B9-D347-3D8F-9A06-EEB2C560871B}</Project>
+      <Name>internal_platform_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\internal_platform_cancellation_flag.vcxproj">
+      <Project>{ED3F48CB-77F1-3774-9584-BAEED02CCC28}</Project>
+      <Name>internal_platform_cancellation_flag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\implementation\internal_platform_implementation_comm.vcxproj">
+      <Project>{B22E825C-17BE-3429-BB5D-10E7374ABB17}</Project>
+      <Name>internal_platform_implementation_comm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\implementation\internal_platform_implementation_platform.vcxproj">
+      <Project>{9693364E-369D-318D-BF98-0BDFAD8F2D12}</Project>
+      <Name>internal_platform_implementation_platform</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\implementation\internal_platform_implementation_types.vcxproj">
+      <Project>{84DCFED1-7BC1-347D-97B7-ABCFEE9AD5B3}</Project>
+      <Name>internal_platform_implementation_types</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\internal_platform_types.vcxproj">
+      <Project>{9A8ED09C-DC51-333B-ADC2-152188C8F3D9}</Project>
+      <Name>internal_platform_types</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\internal_platform_util.vcxproj">
+      <Project>{65E7C3A0-03BE-305D-870C-439FFF643C62}</Project>
+      <Name>internal_platform_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\platform\internal_platform_uuid.vcxproj">
+      <Project>{C74052B3-AF50-3A81-91AC-BD4301B3FBE6}</Project>
+      <Name>internal_platform_uuid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\synchronization\kernel_timeout_internal.vcxproj">
+      <Project>{BDA76317-E77F-377D-8212-BB273698A709}</Project>
+      <Name>kernel_timeout_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\debugging\leak_check.vcxproj">
+      <Project>{D3F87B45-BC59-389A-8555-30E11BDAE332}</Project>
+      <Name>leak_check</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-build\libprotobuf.vcxproj">
+      <Project>{3B78AD80-4911-3E97-BA37-D187F1458EFA}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\internal\proto\local_credential_cc_proto.vcxproj">
+      <Project>{5289AD5D-D9D4-3825-BBD5-3DBD20C4374D}</Project>
+      <Name>local_credential_cc_proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_entry.vcxproj">
+      <Project>{8C0A62D2-EFD4-3766-A711-115A5017ED03}</Project>
+      <Name>log_entry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_globals.vcxproj">
+      <Project>{7C1DFC30-3514-35C9-B9DE-32EC43035E6F}</Project>
+      <Name>log_globals</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_initialize.vcxproj">
+      <Project>{80059C3F-8948-3C09-877C-D3A1F347766C}</Project>
+      <Name>log_initialize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_check_op.vcxproj">
+      <Project>{8DD3C43A-8D3C-3512-A42F-6AABFC7740F9}</Project>
+      <Name>log_internal_check_op</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_conditions.vcxproj">
+      <Project>{E42FBCD4-F8D3-3EA8-A917-EF6103BCD668}</Project>
+      <Name>log_internal_conditions</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_format.vcxproj">
+      <Project>{8D945E1E-5110-3B5F-9687-05A2F583D3F6}</Project>
+      <Name>log_internal_format</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_globals.vcxproj">
+      <Project>{5E4F065F-E4F3-3202-8459-1104B52CA1B3}</Project>
+      <Name>log_internal_globals</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_log_sink_set.vcxproj">
+      <Project>{B60B7488-EE76-3AC5-B5FC-1EA66EFDFAB1}</Project>
+      <Name>log_internal_log_sink_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_message.vcxproj">
+      <Project>{8769223F-9D41-3DFD-B69A-23FC96E37C79}</Project>
+      <Name>log_internal_message</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_nullguard.vcxproj">
+      <Project>{91F3D993-0F41-3794-BE48-C294B0F1466D}</Project>
+      <Name>log_internal_nullguard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_internal_proto.vcxproj">
+      <Project>{766A4633-3814-3502-9A9A-2817DB3F4E83}</Project>
+      <Name>log_internal_proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\log_severity.vcxproj">
+      <Project>{9642D417-4037-3953-9868-D3649D54F86C}</Project>
+      <Name>log_severity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\log\log_sink.vcxproj">
+      <Project>{EC667EA4-27B2-3B44-B8D7-07A0879B01A5}</Project>
+      <Name>log_sink</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\hash\low_level_hash.vcxproj">
+      <Project>{36D92679-A369-3E1D-B479-22565A20F072}</Project>
+      <Name>low_level_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\malloc_internal.vcxproj">
+      <Project>{9A23E567-A639-37EE-85CA-EFE514364E60}</Project>
+      <Name>malloc_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\connections\implementation\proto\offline_wire_formats_cc_proto.vcxproj">
+      <Project>{F80DC50B-57A1-3856-939D-4208134F7ACA}</Project>
+      <Name>offline_wire_formats_cc_proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\container\raw_hash_set.vcxproj">
+      <Project>{4F741E6F-44E5-370F-8F8F-1A28135B8D57}</Project>
+      <Name>raw_hash_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\raw_logging_internal.vcxproj">
+      <Project>{B57E7D3E-B785-3516-85A1-27831E39684E}</Project>
+      <Name>raw_logging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\spinlock_wait.vcxproj">
+      <Project>{141B2100-920C-32B6-93E5-94B96F04B568}</Project>
+      <Name>spinlock_wait</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\debugging\stacktrace.vcxproj">
+      <Project>{8B27350C-6391-3447-9377-629032DF7E9C}</Project>
+      <Name>stacktrace</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\status\status.vcxproj">
+      <Project>{778767FD-B136-3C66-B4F4-2FC6CF25A5AF}</Project>
+      <Name>status</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\status\statusor.vcxproj">
+      <Project>{645A2FFB-39AA-3A98-8C5B-A76AE550A0DE}</Project>
+      <Name>statusor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\str_format_internal.vcxproj">
+      <Project>{5F0EF3CA-CC9B-367C-B23A-9A17F0F81B35}</Project>
+      <Name>str_format_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\strerror.vcxproj">
+      <Project>{C59300F3-46A0-3B4E-8935-ECFA65A9F1F8}</Project>
+      <Name>strerror</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\string_view.vcxproj">
+      <Project>{D7DD6AC7-D50A-3FB1-B194-3CE7C7919287}</Project>
+      <Name>string_view</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\strings.vcxproj">
+      <Project>{7483AD37-B1E8-3928-9E2B-6B17963325A8}</Project>
+      <Name>strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\strings\strings_internal.vcxproj">
+      <Project>{B01A67CA-5390-3A54-8477-F7E780FDF3EF}</Project>
+      <Name>strings_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\debugging\symbolize.vcxproj">
+      <Project>{BBBBBAD6-3580-309B-8D65-F41EA6549B72}</Project>
+      <Name>symbolize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\synchronization\synchronization.vcxproj">
+      <Project>{F313C237-930F-3593-9683-FD272E2A47F8}</Project>
+      <Name>synchronization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\base\throw_delegate.vcxproj">
+      <Project>{73762F2E-6460-3BB9-855F-E2E30073B497}</Project>
+      <Name>throw_delegate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\time\time.vcxproj">
+      <Project>{ED44E11B-45C1-3341-A444-499E2C5AC451}</Project>
+      <Name>time</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\absl-build\absl\time\time_zone.vcxproj">
+      <Project>{DCE7D7A8-453C-3C50-93F8-AFE722BEC545}</Project>
+      <Name>time_zone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\protobuf-build\third_party\utf8_range\utf8_validity.vcxproj">
+      <Project>{A835C80A-41FA-3A5F-8F0E-F9A29E4A1132}</Project>
+      <Name>utf8_validity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

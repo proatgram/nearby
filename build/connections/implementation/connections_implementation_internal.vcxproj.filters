@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\base_bwu_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\base_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\base_pcp_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\ble_advertisement.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\ble_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\ble_v2_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bluetooth_bwu_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bluetooth_device_name.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bluetooth_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bwu_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\client_proxy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\encryption_runner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\endpoint_channel_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\endpoint_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\injected_bluetooth_device_store.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\internal_payload.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\internal_payload_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\offline_frames.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\offline_frames_validator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\offline_service_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\p2p_cluster_pcp_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\p2p_point_to_point_pcp_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\p2p_star_pcp_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\payload_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\pcp_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\service_controller_router.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\webrtc_bwu_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\webrtc_bwu_handler_stub.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\webrtc_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_direct_bwu_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_direct_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_hotspot_bwu_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_hotspot_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_lan_bwu_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_lan_endpoint_channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_lan_service_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\base_bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\base_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\base_pcp_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\ble_advertisement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\ble_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\ble_v2_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bluetooth_bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bluetooth_device_name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bluetooth_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\bwu_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\client_proxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\encryption_runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\endpoint_channel_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\endpoint_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\injected_bluetooth_device_store.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\internal_payload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\internal_payload_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\offline_frames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\offline_frames_validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\offline_service_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\p2p_cluster_pcp_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\p2p_point_to_point_pcp_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\p2p_star_pcp_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\payload_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\pcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\pcp_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\pcp_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\service_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\service_controller_router.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\service_id_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\webrtc_bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\webrtc_bwu_handler_stub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\webrtc_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_direct_bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_direct_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_hotspot_bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_hotspot_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_lan_bwu_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_lan_endpoint_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\wifi_lan_service_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\connections\implementation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40C6ABED-705F-3C2D-AAC7-87F3D3366D23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B53A22DB-6663-3A46-8C0D-0E7AC59F145D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

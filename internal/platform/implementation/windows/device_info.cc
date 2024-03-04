@@ -68,7 +68,7 @@ std::optional<std::u16string> DeviceInfo::GetOsDeviceName() const {
     }
   }
 
-  WCHAR device_name[size];
+  WCHAR* device_name = new WCHAR(size);
   if (GetComputerNameExW(ComputerNameDnsHostname, device_name, &size)) {
     std::wstring wide_name(device_name);
     return std::u16string(wide_name.begin(), wide_name.end());

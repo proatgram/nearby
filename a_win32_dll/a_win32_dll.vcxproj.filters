@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="advertising_options_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_options_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="discovery_options_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="endpointInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listeners_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="medium_selector_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="medium_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="params_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="payload_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strategy_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="advertisement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options_base_w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="share_target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="attachment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_attachment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="text_attachment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wifi_credentials_attachment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_share_enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compatible_u8_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sending_payload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer_update_callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer_metadata_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="share_target_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incoming_frames_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_sharing_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_sharing_decoder_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="share_target_discovered_callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connections_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outgoing_share_target_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_sharing_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_sharing_service_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connections_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connections_manager_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connections_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connections_service_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incoming_share_target_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_sharing_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="payload_tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="attachment_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_file_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hardcoded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connections_manager_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_sharing_service_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nearby_connection_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paired_key_verification_runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="advertising_options_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_options_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="discovery_options_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="listeners_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="payload_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strategy_w.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="endpointInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="advertisement.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="share_target.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="attachment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_attachment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_attachment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wifi_credentials_attachment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mime.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sending_payload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transfer_metadata.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transfer_metadata_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="share_target_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="incoming_frames_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_sharing_decoder_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outgoing_share_target_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_sharing_service.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_sharing_service_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_connections_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_connections_manager_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_connections_service.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_connections_service_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transfer_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="incoming_share_target_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_sharing_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="payload_tracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="attachment_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_file_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_connections_manager_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_sharing_service_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hardcoded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nearby_connection_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paired_key_verification_runner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

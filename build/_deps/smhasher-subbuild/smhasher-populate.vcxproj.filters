@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\be4162ab730fcdad6f0c602e830fce3e\smhasher-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\a833fdaf41cf38eda24d26bce41ec67e\smhasher-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\7acdb84636a6d36381507aedbd46dd8b\smhasher-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\smhasher-subbuild\CMakeFiles\smhasher-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7E45AF91-B3D6-364D-9FEC-A8BD65FE5D3E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

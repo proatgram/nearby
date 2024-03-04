@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_gatt_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_gatt_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_peripheral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2_peripheral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2_server_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\ble_v2_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_server_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_classic_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\bluetooth_pairing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\condition_variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\file_path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\http_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\scheduled_executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\server_sync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\session_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\submittable_executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\thread_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\webrtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_direct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_hotspot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\wifi_lan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\internal\platform\implementation\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40C6ABED-705F-3C2D-AAC7-87F3D3366D23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="placeholder_file.cpp" />
+  </ItemGroup>
+</Project>

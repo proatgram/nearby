@@ -14,6 +14,8 @@
 
 #include "internal/platform/implementation/windows/webrtc.h"
 
+#ifndef NO_WEBRTC
+
 #include <winnls.h>
 
 #include <memory>
@@ -113,3 +115,5 @@ WebRtcMedium::GetSignalingMessenger(
 
 }  // namespace windows
 }  // namespace nearby
+
+#endif

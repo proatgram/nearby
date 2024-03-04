@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0633D675-A917-31A0-B0CC-D705A28552A9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>crypto</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\crypto.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\output\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">crypto.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">crypto.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">crypto.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">crypto.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4267;4706</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);BORINGSSL_DISPATCH_TEST</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4100;4127;4244;4267;4706</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);BORINGSSL_DISPATCH_TEST</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4100;4127;4244;4267;4706</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);BORINGSSL_DISPATCH_TEST</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4267;4706</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);BORINGSSL_DISPATCH_TEST</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;NO_WEBRTC;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\286aa7a7e9f043af4d38379c96281ee9\err_data.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Go\bin\go.exe" run err_data_generate.go &gt; D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\err_data_generate.go;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\asn1.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bio.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bn.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\cipher.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\conf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\digest.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ec.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\engine.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\evp.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\hkdf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\obj.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pem.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs7.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs8.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\rsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ssl.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\trust_token.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Go\bin\go.exe" run err_data_generate.go &gt; D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\err_data_generate.go;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\asn1.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bio.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bn.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\cipher.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\conf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\digest.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ec.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\engine.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\evp.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\hkdf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\obj.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pem.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs7.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs8.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\rsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ssl.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\trust_token.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Go\bin\go.exe" run err_data_generate.go &gt; D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\err_data_generate.go;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\asn1.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bio.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bn.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\cipher.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\conf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\digest.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ec.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\engine.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\evp.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\hkdf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\obj.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pem.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs7.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs8.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\rsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ssl.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\trust_token.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Go\bin\go.exe" run err_data_generate.go &gt; D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\err_data_generate.go;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\asn1.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bio.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\bn.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\cipher.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\conf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\digest.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\dsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdh.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ecdsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ec.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\engine.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\evp.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\hkdf.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\obj.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pem.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs7.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\pkcs8.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\rsa.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\ssl.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\trust_token.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509.errordata;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\161b34320d1dc66b9943cb629799dabf\chacha-x86-win.asm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating chacha/chacha-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86.pl win32n -DOPENSSL_IA32_SSE2 chacha/chacha-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating chacha/chacha-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86.pl win32n -DOPENSSL_IA32_SSE2 chacha/chacha-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating chacha/chacha-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86.pl win32n -DOPENSSL_IA32_SSE2 chacha/chacha-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating chacha/chacha-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86.pl win32n -DOPENSSL_IA32_SSE2 chacha/chacha-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\46519f7c079982221dbc795b8b5fa21f\trampoline-x86-win.asm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating test/trampoline-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86.pl win32n -DOPENSSL_IA32_SSE2 test/trampoline-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating test/trampoline-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86.pl win32n -DOPENSSL_IA32_SSE2 test/trampoline-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating test/trampoline-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86.pl win32n -DOPENSSL_IA32_SSE2 test/trampoline-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating test/trampoline-x86-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86.pl win32n -DOPENSSL_IA32_SSE2 test/trampoline-x86-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\161b34320d1dc66b9943cb629799dabf\chacha-x86_64-win.asm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating chacha/chacha-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86_64.pl nasm chacha/chacha-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating chacha/chacha-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86_64.pl nasm chacha/chacha-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating chacha/chacha-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86_64.pl nasm chacha/chacha-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating chacha/chacha-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory chacha
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/chacha/asm/chacha-x86_64.pl nasm chacha/chacha-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\asm\chacha-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\bef74eb74d8abeeb2ea63d438355b4ba\aes128gcmsiv-x86_64-win.asm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating cipher_extra/aes128gcmsiv-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/aes128gcmsiv-x86_64.pl nasm cipher_extra/aes128gcmsiv-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\aes128gcmsiv-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\aes128gcmsiv-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating cipher_extra/aes128gcmsiv-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/aes128gcmsiv-x86_64.pl nasm cipher_extra/aes128gcmsiv-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\aes128gcmsiv-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\aes128gcmsiv-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating cipher_extra/aes128gcmsiv-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/aes128gcmsiv-x86_64.pl nasm cipher_extra/aes128gcmsiv-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\aes128gcmsiv-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\aes128gcmsiv-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating cipher_extra/aes128gcmsiv-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/aes128gcmsiv-x86_64.pl nasm cipher_extra/aes128gcmsiv-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\aes128gcmsiv-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\aes128gcmsiv-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\bef74eb74d8abeeb2ea63d438355b4ba\chacha20_poly1305_x86_64-win.asm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating cipher_extra/chacha20_poly1305_x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/chacha20_poly1305_x86_64.pl nasm cipher_extra/chacha20_poly1305_x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\chacha20_poly1305_x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\chacha20_poly1305_x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating cipher_extra/chacha20_poly1305_x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/chacha20_poly1305_x86_64.pl nasm cipher_extra/chacha20_poly1305_x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\chacha20_poly1305_x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\chacha20_poly1305_x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating cipher_extra/chacha20_poly1305_x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/chacha20_poly1305_x86_64.pl nasm cipher_extra/chacha20_poly1305_x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\chacha20_poly1305_x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\chacha20_poly1305_x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating cipher_extra/chacha20_poly1305_x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory cipher_extra
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/cipher_extra/asm/chacha20_poly1305_x86_64.pl nasm cipher_extra/chacha20_poly1305_x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\asm\chacha20_poly1305_x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\chacha20_poly1305_x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\CMakeFiles\46519f7c079982221dbc795b8b5fa21f\trampoline-x86_64-win.asm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating test/trampoline-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86_64.pl nasm test/trampoline-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating test/trampoline-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86_64.pl nasm test/trampoline-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating test/trampoline-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86_64.pl nasm test/trampoline-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating test/trampoline-x86_64-win.asm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory test
+if %errorlevel% neq 0 goto :cmEnd
+C:\Strawberry\perl\bin\perl.exe D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/test/asm/trampoline-x86_64.pl nasm test/trampoline-x86_64-win.asm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\test\asm\trampoline-x86_64.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\arm-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86_64-xlate.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86asm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86gas.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86masm.pl;D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\perlasm\x86nasm.pl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86_64-win.asm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-src/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/GNearby/GNearbyCmake/GNearby -BD:/Code/GNearby/GNearbyCmake/GNearby/build --check-stamp-file D:/Code/GNearby/GNearbyCmake/GNearby/build/_deps/boringssl-build/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_bitstr.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_bool.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_d2i_fp.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_dup.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_gentm.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_i2d_fp.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_int.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_mbstr.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_object.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_octet.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_strex.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_strnid.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_time.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_type.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\a_utctm.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\asn1_lib.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\asn1_par.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\asn_pack.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\f_int.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\f_string.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\tasn_dec.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\tasn_enc.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\tasn_fre.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\tasn_new.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\tasn_typ.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\tasn_utl.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\asn1\posix_time.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\base64\base64.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\bio.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\bio_mem.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\connect.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\errno.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\fd.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\file.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\hexdump.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\pair.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\printf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\socket.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bio\socket_helper.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\blake2\blake2.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bn_extra\bn_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bn_extra\convert.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\buf\buf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bytestring\asn1_compat.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bytestring\ber.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bytestring\cbb.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bytestring\cbs.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\bytestring\unicode.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\chacha\chacha.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\cipher_extra.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\derive_key.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_aesctrhmac.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_aesgcmsiv.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_chacha20poly1305.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_des.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_null.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_rc2.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_rc4.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\e_tls.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cipher_extra\tls_cbc.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\conf\conf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_aarch64_apple.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_aarch64_openbsd.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_aarch64_fuchsia.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_aarch64_linux.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_aarch64_sysreg.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_aarch64_win.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_arm_freebsd.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_arm_linux.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\cpu_intel.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\crypto.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\curve25519\curve25519.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\curve25519\curve25519_64_adx.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\curve25519\spake25519.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\des\des.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\dh_extra\params.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\dh_extra\dh_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\digest_extra\digest_extra.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\dsa\dsa.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\dsa\dsa_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\ecdh_extra\ecdh_extra.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\ecdsa_extra\ecdsa_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\ec_extra\ec_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\ec_extra\ec_derive.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\ec_extra\hash_to_curve.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\err\err.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\err_data.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\engine\engine.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\evp.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\evp_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\evp_ctx.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_dsa_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_ec.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_ec_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_ed25519.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_ed25519_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_hkdf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_rsa.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_rsa_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_x25519.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\p_x25519_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\pbkdf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\print.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\scrypt.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\evp\sign.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\ex_data.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\hpke\hpke.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\hrss\hrss.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\keccak\keccak.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\kyber\kyber.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\lhash\lhash.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\mem.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\obj\obj.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\obj\obj_xref.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_all.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_info.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_lib.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_oth.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_pk8.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_pkey.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_x509.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pem\pem_xaux.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pkcs7\pkcs7.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pkcs7\pkcs7_x509.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pkcs8\pkcs8.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pkcs8\pkcs8_x509.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pkcs8\p5_pbev2.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\poly1305\poly1305.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\poly1305\poly1305_arm.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\poly1305\poly1305_vec.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\pool\pool.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\deterministic.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\forkunsafe.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\getentropy.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\ios.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\passive.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\rand_extra.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\trusty.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rand_extra\windows.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rc4\rc4.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\refcount.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rsa_extra\rsa_asn1.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rsa_extra\rsa_crypt.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\rsa_extra\rsa_print.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\address.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\fors.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\merkle.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\spx.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\thash.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\spx_util.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\spx\wots.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\stack\stack.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\siphash\siphash.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\thread.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\thread_none.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\thread_pthread.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\thread_win.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\trust_token\pmbtoken.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\trust_token\trust_token.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\trust_token\voprf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\a_digest.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\a_sign.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\a_verify.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\algorithm.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\asn1_gen.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\by_dir.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\by_file.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\i2d_pr.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\name_print.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\policy.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\rsa_pss.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\t_crl.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\t_req.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\t_x509.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\t_x509a.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_akey.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_akeya.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_alt.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_bcons.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_bitst.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_conf.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_cpols.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_crld.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_enum.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_extku.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_genn.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_ia5.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_info.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_int.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_lib.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_ncons.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_ocsp.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_pcons.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_pmaps.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_prn.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_purp.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_skey.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\v3_utl.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_algor.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_all.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_attrib.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_crl.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_exten.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_name.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_pubkey.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_req.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_sig.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_spki.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_val.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_x509.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x_x509a.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_att.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_cmp.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_d2.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_def.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_ext.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_lu.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_obj.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_req.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_set.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_trs.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_txt.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_v3.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_vfy.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509_vpm.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509cset.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509name.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509rset.c" />
+    <ClCompile Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-src\crypto\x509\x509spki.c" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\bcm.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\fips_shared_support.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\aesni-x86-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\bn-586-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\co-586-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\ghash-ssse3-x86-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\ghash-x86-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\md5-586-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\sha1-586-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\sha256-586-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\sha512-586-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\vpaes-x86-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\x86-mont-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\aesni-gcm-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\aesni-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\ghash-ssse3-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\ghash-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\md5-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\p256_beeu-x86_64-asm-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\p256-x86_64-asm-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\rdrand-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\rsaz-avx2-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\sha1-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\sha256-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\sha512-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\vpaes-x86_64-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\x86_64-mont-win.obj" />
+    <Object Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\x86_64-mont5-win.obj" />
+    <NASM Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86-win.asm" />
+    <NASM Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86-win.asm" />
+    <NASM Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\chacha\chacha-x86_64-win.asm" />
+    <NASM Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\aes128gcmsiv-x86_64-win.asm" />
+    <NASM Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\cipher_extra\chacha20_poly1305_x86_64-win.asm" />
+    <NASM Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\test\trampoline-x86_64-win.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\ZERO_CHECK.vcxproj">
+      <Project>{A2EAB798-C77B-38C1-BE57-FB45A495FE27}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\boringssl_prefix_symbols.vcxproj">
+      <Project>{B847F6FC-5549-39F2-9F51-9494D05F6FE6}</Project>
+      <Name>boringssl_prefix_symbols</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Code\GNearby\GNearbyCmake\GNearby\build\_deps\boringssl-build\crypto\fipsmodule\fipsmodule.vcxproj">
+      <Project>{61FA547B-A70D-3999-ADDD-CD209119EBC5}</Project>
+      <Name>fipsmodule</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.27\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

@@ -24,7 +24,7 @@
 #include "internal/platform/implementation/bluetooth_classic.h"
 #include "internal/platform/implementation/windows/bluetooth_adapter.h"
 #include "internal/platform/implementation/windows/bluetooth_classic_device.h"
-#include "internal/platform/implementation/windows/generated/winrt/Windows.Devices.Bluetooth.Rfcomm.h"
+#include "winrt/Windows.Devices.Bluetooth.Rfcomm.h"
 
 #include "gtest/gtest.h"
 

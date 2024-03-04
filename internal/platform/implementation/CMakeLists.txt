@@ -112,6 +112,7 @@ target_include_directories(internal_platform_implementation_platform INTERFACE $
 add_library(internal::platform::implementation::platform ALIAS internal_platform_implementation_platform)
 
 add_subdirectory("shared")
+add_subdirectory("windows")
 
 IF (UNIX AND NOT APPLE)
   add_subdirectory("linux")

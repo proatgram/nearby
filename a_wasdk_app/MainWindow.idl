@@ -1,0 +1,31 @@
+namespace a_wasdk_app
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+
+    runtimeclass PhoneDevice : Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        PhoneDevice();
+        PhoneDevice(String name, String endpoint_id);
+        String DeviceName;
+        Int32 TransferProgress;
+    }
+
+    runtimeclass DevicesPage : Microsoft.UI.Xaml.Controls.Page, Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        DevicesPage();
+        Windows.Foundation.Collections.IVector<IInspectable> Devices{ get; };
+        Int32 TransferProgress;
+        Boolean ShowProgress{ get; };
+        Boolean ShowDevicesSection{ get; };
+        Boolean ShowTransferComplete{ get; };
+        Boolean ShowAuthSection{ get; };
+        Boolean ShowPinSpinner{ get; };
+        Boolean EnableDeviceScan{ get; };
+        String FileName{ get; };
+        String AuthToken{ get; };
+    }
+}

@@ -56,6 +56,8 @@ set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 
 include("cmake/dependencies.cmake")
 
+set(CMAKE_CXX_STANDARD 20)
+
 set(BUILD_SHARED_LIBS ${nearby_SHARED_LIBS} CACHE BOOL "Revert the option to build the installable project" FORCE)
 
 # Targets
@@ -73,3 +75,4 @@ add_subdirectory("internal/test")
 add_subdirectory("internal/weave")
 add_subdirectory("internal/data")
 add_subdirectory("connections")
+add_subdirectory("sharing")

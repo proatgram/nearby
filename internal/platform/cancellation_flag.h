@@ -75,7 +75,7 @@ class CancellationFlag {
 
   int CancelListenersSize() const ABSL_LOCKS_EXCLUDED(mutex_) {
     absl::MutexLock lock(mutex_.get());
-    return listeners_.size();
+    return static_cast<int>(listeners_.size());
   }
 
   std::unique_ptr<absl::Mutex> mutex_;

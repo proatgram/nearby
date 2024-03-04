@@ -1,0 +1,9 @@
+namespace a_wasdk_dll
+{
+    [default_interface]
+    runtimeclass Class
+    {
+        Class();
+        Int32 MyProperty;
+    }
+}

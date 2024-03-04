@@ -1,0 +1,9 @@
+namespace a_wasdk_app
+{
+    /*[default_interface]
+    runtimeclass DevicesPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        DevicesPage();
+        Int32 MyProperty;
+    }*/
+}
